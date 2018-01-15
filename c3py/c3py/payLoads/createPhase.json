@@ -1,0 +1,14 @@
+{
+    "phases": [
+        {
+            "name": "CRM-Phase1",
+            "depEnvId": 2,
+            "planId": 2
+        },
+        {
+            "name": "CRM-Phase2",
+            "depEnvId": 3,
+            "planId": 3
+        }
+    ]
+}

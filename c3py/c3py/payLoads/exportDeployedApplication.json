@@ -1,0 +1,34 @@
+{
+    "jobId": "9",
+    "name": "CENTOS_2Tier_run_1",
+    "repositoryId": "1",
+    "pathValue": "admin@cloudcenter.com",
+    "password": "===redacted===",
+    "childJobPortSpecs": [{
+        "jobId": "10",
+        "pathValue": "admin@cloudcenter.com",
+        "specJaxbs": [{
+            "specType": "BASE_IMAGE",
+            "value": true
+        }, {
+            "specType": "SERVICE_DEFINITION",
+            "value": true
+        }, {
+            "specType": "APP_DATA_BACKUP",
+            "value": true
+        }]
+    }, {
+        "jobId": "11",
+        "pathValue": "admin@cloudcenter.com",
+        "specJaxbs": [{
+            "specType": "BASE_IMAGE",
+            "value": false
+        }, {
+            "specType": "SERVICE_DEFINITION",
+            "value": false
+        }, {
+            "specType": "APP_DATA_BACKUP",
+            "value": false
+        }]
+    }]
+}

@@ -1,0 +1,80 @@
+{
+
+    "name": "Run Backup",
+    "description": "Action to run the backup process.",
+    "actionType": "EXECUTE_COMMAND",
+    "actionParameters": [
+        {
+            "paramName": "bundlePath",
+            "paramValue": "http://env.cliqrtech.com/Backup.zip",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "script",
+            "paramValue": "backup.sh",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "downloadFromBundle",
+            "paramValue": "true",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "executeOnContainer",
+            "paramValue": "",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "rebootInstance",
+            "paramValue": "false",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "refreshInstanceInfo",
+            "paramValue": "true",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        }
+    ],
+    "actionResourceMappings": [
+        {
+            "type": "VIRTUAL_MACHINE",
+            "actionResourceFilters": [
+                {
+                    "deploymentResource": null,
+                    "vmResource": {
+
+                        "type": "DEPLOYMENT_VM",
+                        "appProfiles": [
+                            "1",
+                            "2"
+                        ],
+                        "cloudRegions": [
+                            "1",
+                            "2"
+                        ],
+                        "cloudAccounts": [
+                            "1",
+                            "2"
+                        ],
+                        "services": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+	"name": "SamplePolicy",
+     "description": "Sample Action Policy",
+     "entityType": "Application Deployment",
+     "eventName": "max_cluster_size_reached",
+     "actions": [{
+         "actionType": "EMAIL",
+         "actionInputs": [{
+             "name": "toAddr",
+             "value": "%myEmail%"
+         }, {
+             "name": "bcc",
+             "value": ""
+         }, {
+             "name": "subject",
+             "value": "Deployment %jobName% for the application %appName% has reached maximum cluster size limit"
+         }, {
+             "name": "body",
+             "value": "Hello %firstName%\nDeployment %jobName% for the application %appName% has reached the maximum cluster size limit of %maxAppClusterSize% on %MaxClusterSizeReachedAt%. Click here %jobUrl% to view the status of the deployment.\nYour %vendorName% Team"
+         }],
+         "associatedParams": []
+     }],
+     "autoEnable": true,
+     "forceEnable": false
+ }

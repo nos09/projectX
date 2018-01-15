@@ -1,0 +1,41 @@
+{
+
+    "name": "Run_Ansible_Script",
+    "description": "Action to run the Ansible Playbook.",
+    "actionType": "ANSIBLE_SCRIPT",
+    "actionParameters": [
+        {
+            "paramName": "ansiblePlaybook",
+            "paramValue": "http://env.cliqrtech.com/samplePlaybook.yml",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        }
+
+    ],
+    "actionResourceMappings": [
+        {
+            "type": "VIRTUAL_MACHINE",
+            "actionResourceFilters": [
+                {
+                    "deploymentResource": null,
+                    "vmResource": {
+
+                        "type": "DEPLOYMENT_VM",
+
+                        "cloudRegions": [
+                            "1"
+
+                        ],
+                        "cloudAccounts": [
+                            "1",
+                            "2"
+                        ]
+
+
+                    }
+                }
+            ]
+        }
+    ]
+}

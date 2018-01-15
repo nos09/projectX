@@ -1,0 +1,16 @@
+{
+    "tenantId": "1",
+    "id":"2",
+    "name": "Development ",
+    "description": "Development update",
+    "users": [
+        {
+            "id": "1"
+        }
+    ],
+    "roles": [
+        {
+            "id": "1"
+        }
+    ]
+}

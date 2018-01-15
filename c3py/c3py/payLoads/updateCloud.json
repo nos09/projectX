@@ -1,0 +1,10 @@
+{
+    "id": "5",
+    "name": "amazon_edit",
+    "cloudFamily": "Amazon",
+    "description": "test",
+    "publicCloud": true,
+    "tenantId": "1",
+    "canDelete": true,
+    "detail": null
+}

@@ -1,0 +1,92 @@
+{
+    "id": "66",
+    "displayName": "Testing201508151708",
+    "name": "testing201508151708",
+    "description": "testing201508151708 testing",
+    "bundleLocation": "%REPO_ID_1%bundles/testing201508141939.zip",
+    "parentServiceId": "37",
+    "costPerHour": "0.3",
+    "logoPath": "/assets/img/appTiers/testing201508151708/logo.png",
+    "defaultImageId": 4,
+    "serviceActions": [
+        {
+            "actionName": "INSTALL",
+            "actionType": "CMD",
+            "actionValue": "service install"
+        },
+        {
+            "actionName": "CONFIGURE",
+            "actionType": "CMD",
+            "actionValue": "service configure"
+        },
+        {
+            "actionName": "DEPLOY",
+            "actionType": "CMD",
+            "actionValue": "service run"
+        },
+        {
+            "actionName": "START",
+            "actionType": "URL",
+            "actionValue": "http://<HOST>:<PORT>/startService.sh"
+        },
+        {
+            "actionName": "STOP",
+            "actionType": "SCRIPT",
+            "actionValue": "service stop"
+        },
+        {
+            "actionName": "RESTART",
+            "actionType": "URL",
+            "actionValue": "%REPO_ID_1%scripts/serviceRepository.sh"
+        },
+        {
+            "actionName": "RELOAD",
+            "actionType": "CMD",
+            "actionValue": "service reload"
+        },
+        {
+            "actionName": "UPGRADE",
+            "actionType": "CMD",
+            "actionValue": "service upgrade"
+        },
+        {
+            "actionName": "CLEANUP",
+            "actionType": "SCRIPT",
+            "actionValue": "service cleanup"
+        }
+    ],
+    "serviceParamSpecs": [
+        {
+            "paramName": "WAR_FILE_LOCATION",
+            "displayName": "War File Location",
+            "helpText": "War File Location",
+            "type": "string",
+            "valueConstraint": {
+                "maxLength": 255,
+                "allowSpaces": true
+            },
+            "defaultValue": "",
+            "userVisible": true,
+            "userEditable": true,
+            "optional": false,
+            "systemParam": true
+        }
+    ],
+    "servicePorts": [
+        {
+            "protocol": "TCP",
+            "fromPort": "80",
+            "toPort": "80"
+        }
+    ],
+    "images": [
+        {
+            "id": "4"
+        }
+    ],
+    "repositories": [
+        {
+            "id": "1"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+ {
+    "name": "CRM-Dev-Phase1",
+    "deploymentEnvironmentId": 1,
+    "Id": 6,
+    "order": 1,
+    "bundleIds" : [1,2]
+}

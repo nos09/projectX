@@ -1,0 +1,101 @@
+{
+
+    "name": "Run Command with Custom Params",
+    "description": "",
+    "actionType": "EXECUTE_COMMAND",
+    "enabled": false,
+    "deleted": false,
+    "systemDefined": false,
+    "owner": 2,
+    "actionParameters": [
+        {
+            "paramName": "downloadFromBundle",
+            "paramValue": "true",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "bundlePath",
+            "paramValue": "%REPO_ID_1%/ravi",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "script",
+            "paramValue": "ls -ltr /tmp",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        }
+    ],
+    "actionResourceMappings": [
+        {
+            "type": "VIRTUAL_MACHINE",
+            "actionResourceFilters": [
+                {
+                    "deploymentResource": null,
+                    "vmResource": {
+                        "type": "DEPLOYMENT_VM",
+                        "appProfiles": [
+                            "all"
+                        ],
+                        "cloudRegions": [
+                            "all"
+                        ],
+                        "cloudAccounts": [
+                            "all"
+                        ],
+                        "services": [
+                            "all"
+                        ]
+
+                    }
+                }
+            ]
+        }
+    ],
+    "actionCustomParamSpecs": [
+        {
+            "paramName": "Users",
+            "displayName": "Users",
+            "helpText": null,
+            "type": "webservice",
+            "valueList": null,
+            "defaultValue": "",
+            "confirmValue": "",
+            "pathSuffixValue": "",
+            "userVisible": true,
+            "userEditable": true,
+            "systemParam": false,
+            "exampleValue": null,
+            "dataUnit": null,
+            "optional": true,
+            "valueConstraint": {
+                "minValue": 10,
+                "maxValue": 20,
+                "maxLength": 30,
+                "regex": null,
+                "allowSpaces": true,
+                "sizeValue": 0,
+                "step": 0,
+                "calloutWorkflowName": null
+            },
+            "scope": null,
+            "webserviceListParams": {
+                "url": "<HOST>:<PORT>/users/get",
+                "protocol": "http",
+                "username": "",
+                "password": "",
+                "requestType": "GET",
+                "contentType": null,
+                "commandParams": null,
+                "requestBody": null,
+                "resultString": ""
+            },
+            "collectionList": [],
+            "preference": "VISIBLE_UNLOCKED"
+        }
+    ]
+}

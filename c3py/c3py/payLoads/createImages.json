@@ -1,0 +1,9 @@
+{
+    "name": "Testing Ubuntu 1204 2",
+    "description": "Testing Ubuntu 12.04",
+    "visibility": "PUBLIC",
+    "numOfNics": "1",
+    "osName": "LINUX",
+    "enabled": true,
+    "imageType": "CLOUD_WORKER"
+}

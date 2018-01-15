@@ -1,0 +1,7 @@
+{
+    "targetUserId" : <targetUserId>,
+    "resourceInfo" : {
+        "type" : "DISTRIBUTED_JOB",
+        "id" : <ParentJobId>
+    }
+}

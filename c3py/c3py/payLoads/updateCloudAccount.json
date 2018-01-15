@@ -1,0 +1,19 @@
+{
+    "displayName": "VMWARE_NEW",
+    "manageCost": true,
+    "id": 1,
+    "accessPermission": "USERS_AND_SUBTENANT_USERS",
+    "accountDescription": "Writers AWS Cloud Account",
+    "userId": 2,
+    "cloudId": "1",
+    "allowedUsers": [],
+    "accountName": "administrator@vsphere.local",
+    "accountPassword": "vmware",
+    "accountId": "vmware",
+    "accountProperties": [
+        {
+            "name": "ServiceUrl",
+            "value": "https://10.127.193.4/sdk"
+        }
+    ]
+}

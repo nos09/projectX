@@ -1,0 +1,58 @@
+{
+   "name": "Standard User_1",
+   "description":"update",
+   "tenantId":"1",
+   "id":11,
+   "objectPerms":[
+        {
+            "objectType": "DEPLOYMENT_ENVIRONMENT",
+            "perms": [
+                "CREATE_DEPLOYMENT_ENVIRONMENT"
+            ]
+        },
+        {
+            "objectType": "APP",
+            "perms": [
+                "CREATE_APP"
+            ]
+        },
+        {
+            "objectType": "PROJECT",
+            "perms": [
+                "CREATE_PROJECT"
+            ]
+        },
+        {
+            "objectType": "ACTION",
+            "perms": [
+                "CREATE_ACTION"
+            ]
+        },
+        {
+            "objectType": "POLICY",
+            "perms": [
+                "CREATE_POLICY"
+            ]
+        },
+        {
+            "objectType": "CLOUD",
+            "perms": [
+                "CREATE_CLOUD"
+            ]
+        },
+        {
+            "objectType": "CLOUD_ACCOUNT",
+            "perms": [
+                "CREATE_CLOUD_ACCOUNT"
+            ]
+        }
+         ],
+      "users":[
+      {
+         "id":"2"
+      }
+   ],
+   "groups":[
+
+   ]
+}

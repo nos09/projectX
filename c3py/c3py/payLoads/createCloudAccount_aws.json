@@ -1,0 +1,18 @@
+{
+    "displayName": "writercloud",
+    "manageCost": true,
+    "accessPermission": "USERS_AND_SUBTENANT_USERS",
+    "accountDescription": "Writers AWS Cloud Account",
+    "userId": 2,
+    "cloudId": "1",
+    "allowedUsers": [],
+    "accountName": "admin@cliqrtech.com",
+    "accountPassword": "AKIAJEABJGQ2NIO3MOLQ",
+    "accountId": "642111779657",
+    "accountProperties": [
+        {
+            "name": "AccessSecretKey",
+            "value": "AKIAJDJBTIYX5ORUUAOA"
+        }
+    ]
+}

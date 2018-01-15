@@ -1,0 +1,131 @@
+https://wwwin-gitlab-sjc.cisco.com/x/c3py
+Module: API verification: module test
+
+Bundlemanagement: done:done
+CCO managemnet: done
+certifacte management: pending
+CloudAccountManagement:done
+CloudFamilyManagement:done
+CloudImageMappingsManagement:done
+CloudInstanceManagement:done
+CloudManagement:done
+CloudPropertiesManagement:not working:
+CloudProvidersManagement:not working
+CloudRegionManagement:done
+CloudStorageManagemnet:done
+ContractManagement:done
+CustomeActionMangement:Obselete
+DeploymentEnvironmentManagement:done
+FederatedManagement:pending
+ExportAndImportApplications: Need to check with BU 
+ExtensionManagement.py: incomplete
+GroupManagement:done:
+Imagemanagement:done:
+InventoryManagement:incomplete
+KeyManagement:done
+log management:partail
+logo management:pending-error  not sysadmin 
+MarketPlacemanagement:pending
+OperationStatus:done
+OwnershipManagement:done
+Phasemanagement:done
+PlanManagement:done
+PolicyManagemnet:done
+Projectmanagement:done
+ReportManagement:incomplete
+RoleManagemnet:done
+
+
+
+
+    ACL Management APIs
+
+    Actions Management APIs
+
+    Activation Profiles Management APIs
+
+    Application Management APIs
+
+    Bundle Management APIs
+
+    CCO Management APIs
+
+    Certificate Management APIs
+
+    Cloud Account Management APIs
+
+    Cloud Family Management APIs
+
+    Cloud Image Mapping Management APIs
+
+    Cloud Instance Management APIs
+
+    Cloud Management APIs
+
+    Cloud Properties Management APIs
+
+    Cloud Provider Management APIs
+
+    Cloud Region Management APIs
+
+    Cloud Storage Management APIs
+
+    Contract Management APIs
+
+    Custom Action Management APIs
+
+    Deployment Environment Management APIs
+
+    Federated Management APIs
+
+    Export/Import Applications
+
+    Extensions Management APIs
+
+    Group Management APIs
+
+    Image Management APIs
+
+    Inventory Management APIs
+
+    Job Management APIs
+
+    Key Management APIs
+
+    Log Management APIs
+
+    Logo Management APIs
+
+    Marketplace Management APIs
+
+    Operations Status APIs
+
+    Ownership Management APIs
+
+    Phase Management APIs
+
+    Plan Management APIs
+
+    Policy Management APIs
+
+    Project Management APIs
+
+    Report Management APIs
+
+    Role Management APIs
+
+    Service Management APIs
+
+    Tenant Management APIs
+
+    VM Management APIs
+
+    User Management APIs
+
+    Tenant Properties Management APIs
+
+    Mail Properties Management APIs
+
+
+
+

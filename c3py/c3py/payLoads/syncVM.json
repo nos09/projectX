@@ -1,0 +1,10 @@
+{
+   "resourceType":"VIRTUAL_MACHINE",
+   "executionSpecs":[
+   ],
+   "executionResources":[
+      {
+         "id":"4313"
+      }
+   ]
+}

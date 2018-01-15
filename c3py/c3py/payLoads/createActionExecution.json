@@ -1,0 +1,14 @@
+{
+   "resourceType":"VIRTUAL_MACHINE",
+   "executionSpecs":[
+      {
+         "name":"snapshotName",
+         "value":"demodocs"
+      }
+   ],
+   "executionResources":[
+      {
+         "id":"947"
+      }
+   ]
+}

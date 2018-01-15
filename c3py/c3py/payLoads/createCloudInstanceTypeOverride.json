@@ -1,0 +1,9 @@
+{
+    "costPerHour": 0,
+    "multiplier": 2,
+    "cloudAccountId": "1",
+    "regionId": "4",
+    "cloudInstanceTypeId": "1",
+    "tenantId": 1,
+    "disabled": false
+}

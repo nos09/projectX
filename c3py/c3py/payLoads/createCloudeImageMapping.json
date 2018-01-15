@@ -1,0 +1,16 @@
+ {
+    "regionId": "4",
+    "cloudProviderImageId": "worker_482_snapshot_as",
+    "launchUserName": "centos7",
+    "imageId": "22",
+    "mappings": [
+        {
+            "cloudInstanceType": {
+                "id": "1",
+                "regionId": "4"
+            },
+            "costOverride": null,
+            "cloudProviderImageIdOverride": null
+        }
+    ]
+}

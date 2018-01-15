@@ -1,0 +1,37 @@
+{
+    "userId": "3",
+    "id":2,
+    "name": "Company, Inc",
+    "parentTenantId":1,
+    "shortName": "Company07_update",
+    "domainName": "vtest01-07",
+    "phone": "18005536387",
+    "externalId": "",
+    "url": "http://www.company.com",
+    "contactEmail": "assurend@cisco.com",
+    "about": "",
+    "termsOfService": "",
+    "privacyPolicy": "",
+    "enablePurchaseOrder": true,
+    "enableEmailNotificationsToUsers": true,
+    "enableMonthlyBilling": false,
+    "defaultChargeType": "Hourly",
+    "preferences": [
+        {
+            "name": "PASSWORD_MIN_LENGTH",
+            "value": "5"
+        },
+        {
+            "name": "PASSWORD_EXPIRATION_DAYS",
+            "value": "8"
+        },
+        {
+            "name": "PASSWORD_DISABLE_SELF_RESET",
+            "value": "true"
+        },
+        {
+            "name": "PASSWORD_REQUIRE_LOWERCASE",
+            "value": "true"
+        }
+    ]
+}

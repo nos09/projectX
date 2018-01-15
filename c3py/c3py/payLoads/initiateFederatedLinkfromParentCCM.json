@@ -1,0 +1,11 @@
+{
+    "name":"test",
+    "remoteEndpoint": "<ChildCCM_HOST>:<PORT",
+    "userName": "admin@cliqrtech.com",
+    "password": "cliqr",
+    "requestComment": "",
+    "relation": "CLOUD_CENTER_LINK_TO_CHILD",
+    "tenantId": 1,
+    "remoteTenantShortName": "cloudcenter",
+    "status": "PENDING"
+}

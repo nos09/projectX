@@ -1,0 +1,13 @@
+{
+  "type": "st3",
+  "name": "Storage Type 01",
+  "description": "Storage Type 01",
+  "costPerMonth": 1.32,
+  "minVolumeSize": 1,
+  "maxVolumeSize": 1600,
+  "provisionedIOPS" : true,
+  "maxIOPS": 1000,
+  "iopsCostPerMonth": 0.34,
+  "maxThroughput": 100,
+  "regionId": 4
+}

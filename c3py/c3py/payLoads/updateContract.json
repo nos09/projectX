@@ -1,0 +1,14 @@
+{
+      "id": "5",
+      "resource": null,
+      "perms": [],
+      "name": "Docs Contract",
+      "description": "",
+      "tenantId": "1",
+      "length": 12,
+      "terms": "This is a contract for the Doc team with a 10% discount.",
+      "discountRate": 10,
+      "disabled": false,
+      "showOnlyToAdmin": true,
+      "numberOfUsers": 0
+}

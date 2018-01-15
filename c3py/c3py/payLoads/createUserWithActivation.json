@@ -1,0 +1,20 @@
+{
+    "firstName": "P",
+    "lastName": "V",
+    "password": "asdfghjk",
+    "emailAddr": "pv@company.com",
+    "companyName": "Company",
+    "phoneNumber": "",
+    "externalId": "",
+    "tenantId": 1,
+    "activationData": {
+        "activateRegions": [
+            {
+                "regionId": "1"
+            }
+        ],
+        "agreeToContract": true,
+        "sendActivationEmail": false,
+        "importApps": []
+    }
+}

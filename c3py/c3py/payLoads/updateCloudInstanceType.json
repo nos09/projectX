@@ -1,0 +1,16 @@
+{ 
+   "type":"m1.large.db",
+   "id":2,
+   "costPerHour":0.0,
+   "name":"l1.medium",
+   "memorySize":1024,
+   "numOfNics":1,
+   "numOfCpus": 2,
+   "localStorageSize":100,
+   "supportsCuda":false,
+   "supportsSsd":false,
+   "regionId":4,
+   "supports32Bit":true,
+   "supports64Bit":true,
+   "supportHardwareProvision":false
+ }

@@ -1,0 +1,9 @@
+{
+    "logPackages": [{
+        "packageName": "com.osmosix",
+        "level": "DEBUG"
+    }, {
+        "packageName": "org.hibernate.SQL",
+        "level": "INFO"
+    }]
+}

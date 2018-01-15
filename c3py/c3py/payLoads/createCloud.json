@@ -1,0 +1,6 @@
+{
+    "name": "CreateCloud",
+    "description": "description",
+    "cloudFamily": "Alibaba",
+    "tenantId": 1
+}

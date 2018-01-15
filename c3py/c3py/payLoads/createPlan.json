@@ -1,0 +1,11 @@
+{
+    "name": "Unlimited Plan",
+    "description": "Unlimited Plan Example",
+    "type": "UNLIMITED_PLAN",
+    "showOnlyToAdmin": false,
+    "price": "0",
+    "onetimeFee": "0",
+    "billToVendor": false,
+    "paymentProfileRequired": false,
+    "tenantId": 1
+}

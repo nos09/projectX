@@ -1,0 +1,72 @@
+# -*- coding: utf-8 -*-
+
+{
+	"name": "Envt_API_4",
+	"description": "",
+	"allowedClouds": null,
+	"defaultSettings": "{\"defaultCloud\":\"vmware\",\"defaultInstanceType\":\"m1.medium\"}",
+	"requiresApproval": false,
+	"associatedClouds": [
+		{
+		"regionId": "4",
+		"regionName": "vmware-DC1",
+		"regionDisplayName": "DC1",
+		"cloudFamily": "Vmware",
+		"cloudId": "1",
+		"cloudAccountId": "1",
+		"cloudName": "vmware",
+		"cloudAccountName": "vmware",
+		"cloudAssociationDefaults": [
+			   {
+                    "name": "FullClone",
+                    "value": "true"
+                },
+                {
+                    "name": "RootDiskResizeConfig",
+                    "value": "true"
+                },
+                {
+                    "name": "UserDataCenterName",
+                    "value": "Datacenter"
+                },
+                {
+                    "name": "UserDatastoreCluster",
+                    "value": "DataStore_Cluster"
+                },
+                {
+                    "name": "UserClusterName",
+                    "value": "Cluster"
+                },
+                {
+                    "name": "UserDatastore",
+                    "value": ""
+                },
+                                {
+                	"name": "UserTargetDeploymentFolder",
+                    "value": "/Discovered virtual machine/Deployments"
+                },
+                {
+                   "name": "UserResourcePoolName",
+                    "value": ""
+                },
+                {
+            		 "name": "networkId",
+            		 "value": "VM Network"
+                },
+                {
+                    "name": "privateIPAllocationMode",
+                    "value": "DHCP"
+                },
+                {
+                    "name": "type",
+                    "value": "NETWORK"
+                }
+
+                
+            ],
+         "default": "true"
+	}
+	
+]
+
+}

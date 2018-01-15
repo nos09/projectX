@@ -1,0 +1,19 @@
+{
+    "name": "Activation Profile - no deployment environment 3",
+    "description": "Activation Profile - no deployment environment 3",
+    "planId": "4",
+    "contractId": "1",
+    "depEnvId": "2",
+    "activateRegions": [
+        {
+            "regionId": "1"
+        },
+        {
+            "regionId": "2"
+        }
+    ],
+    "importApps": [
+        "1"
+    ],
+    "tenantId": 1
+}

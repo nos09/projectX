@@ -1,0 +1,32 @@
+{
+  "executionResources": [{
+    "regionId": "5",
+    "cloudAccountId": "5",
+    "cloudResourceId": "UbuntuVM",
+    "cloudResourceProperties": [{
+      "name": "resourceGroup",
+      "value": "testResourceGroup"
+    }]
+  }],
+  "resourceType": "VIRTUAL_MACHINE",
+  "executionSpecs": [],
+  "acknowledgedByUser": "false",
+  "acl": {
+    "users": [{
+      "id": 2,
+      "perms": ["administration"]
+    }],
+    "userGroups": [],
+    "tenantUsers": [{
+      "id": "1",
+      "perms": ["read"],
+      "name": "Cisco Systems",
+      "userId": "2",
+      "shortName": null,
+      "parentTenantId": null,
+      "showAsShareAllUsersOnDilog": true
+    }],
+    "tenantAndSubtenantUsers": [],
+    "ownerUserId": "2"
+  }
+}

@@ -1,0 +1,88 @@
+{
+    "id": "10",
+    "resource": "https://10.0.0.205/v1/actions/10",
+    "perms": [
+        "delete",
+        "read",
+        "administration",
+        "write"
+    ],
+    "name": "Invoke WS 1",
+    "description": "",
+    "actionType": "INVOKE_WEB_SERVICE",
+    "enabled": false,
+    "deleted": false,
+    "systemDefined": false,
+    "owner": 2,
+    "actionParameters": [
+        {
+            "paramName": "protocol",
+            "paramValue": "http",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "url",
+            "paramValue": "10.0.0.161:8443/users/post/%jobName%",
+            "customParam": false,
+            "required": true,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "username",
+            "paramValue": "http",
+            "customParam": false,
+            "required": false,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "password",
+            "paramValue": "http",
+            "customParam": false,
+            "required": false,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "requestType",
+            "paramValue": "post",
+            "customParam": false,
+            "required": false,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "contentType",
+            "paramValue": "json",
+            "customParam": false,
+            "required": false,
+            "preference": "VISIBLE_UNLOCKED"
+        },
+        {
+            "paramName": "body",
+            "paramValue": "{"Name":"%jobName%", "Company":"CISCO"}",
+            "customParam": false,
+            "required": false,
+            "preference": "VISIBLE_UNLOCKED"
+        }
+    ],
+    "actionResourceMappings": [
+        {
+            "type": "DEPLOYMENT",
+            "actionResourceFilters": [
+                {
+                    "deploymentResource": {
+                        "deploymentEnvironments": [
+                            "1"
+                        ],
+                        "services": [
+                            "43",
+                            "46"
+                        ]
+                    },
+                    "vmResource": null
+                }
+            ]
+        }
+    ],
+    "actionCustomParamSpecs": []
+}

@@ -1,0 +1,110 @@
+{
+   "id":"17",
+   "resource":"https://<HOST>:<PORT>/v1/actions/17",
+   "perms":[
+      "delete",
+      "read",
+      "write",
+      "administration"
+   ],
+   "name":"Add Tetration Sensor",
+   "description":"",
+   "actionType":"EXECUTE_COMMAND",
+   "lastUpdatedTime":"Thu May 25 01:34:56 UTC 2017",
+   "timeOut":900,
+   "enabled":true,
+   "encrypted":false,
+   "deleted":false,
+   "systemDefined":false,
+   "bulkOperationSupported":true,
+   "isAvailableToUser":true,
+   "owner":2,
+   "actionParameters":[
+      {
+         "paramName":"downloadFromBundle",
+         "paramValue":"true",
+         "customParam":false,
+         "required":true,
+         "preference":"NOT_VISIBLE_LOCKED"
+      },
+      {
+         "paramName":"bundlePath",
+         "paramValue":"https://dummy.com/",
+         "customParam":false,
+         "required":true,
+         "preference":"NOT_VISIBLE_LOCKED"
+      },
+      {
+         "paramName":"script",
+         "paramValue":"https://dummy.com/",
+         "customParam":false,
+         "required":true,
+         "preference":"NOT_VISIBLE_LOCKED"
+      },
+      {
+         "paramName":"executeOnContainer",
+         "paramValue":"true",
+         "customParam":false,
+         "required":true,
+         "preference":"NOT_VISIBLE_LOCKED"
+      },
+      {
+         "paramName":"rebootInstance",
+         "paramValue":"false",
+         "customParam":false,
+         "required":true,
+         "preference":"NOT_VISIBLE_LOCKED"
+      },
+      {
+         "paramName":"refreshInstanceInfo",
+         "paramValue":"false",
+         "customParam":false,
+         "required":true,
+         "preference":"NOT_VISIBLE_LOCKED"
+      }
+   ],
+   "actionResourceMappings":[
+      {
+         "type":"VIRTUAL_MACHINE",
+         "actionResourceFilters":[
+            {
+               "deploymentResource":null,
+               "vmResource":{
+                  "type":"IMPORTED_VM",
+                  "appProfiles":[
+
+                  ],
+                  "cloudRegions":[
+                     "all"
+                  ],
+                  "cloudAccounts":[
+                     "all"
+                  ],
+                  "services":[
+
+                  ],
+                  "osTypes":[
+                     "all"
+                  ],
+                  "cloudFamilyNames":[
+
+                  ],
+                  "nodeStates":[
+
+                  ],
+                  "cloudResourceMappings":[
+
+                  ]
+               },
+               "isEditable":true
+            }
+         ]
+      }
+   ],
+   "actionResourceMappingAncillaries":[
+
+   ],
+   "actionCustomParamSpecs":[
+
+   ]
+}

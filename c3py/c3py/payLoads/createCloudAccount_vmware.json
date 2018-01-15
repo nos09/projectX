@@ -1,0 +1,18 @@
+{
+    "displayName": "writercloudh",
+    "manageCost": true,
+    "accessPermission": "USERS_AND_SUBTENANT_USERS",
+    "accountDescription": "Writers AWS Cloud Account",
+    "userId": 2,
+    "cloudId": "4",
+    "allowedUsers": [],
+    "accountName": "admin@cliqrtech.com",
+    "accountPassword": "cliqr",
+    "accountId": "vmware1",
+    "accountProperties": [
+        {
+            "name": "ServiceUrl",
+            "value": "https://10.127.193.4/sdk"
+        }
+    ]
+}

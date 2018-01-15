@@ -1,0 +1,10 @@
+{
+    "firstName": "User 02",
+    "lastName": "CloudCenter",
+    "password": "===redacted===",
+    "emailAddr": "user.02@company.com",
+    "companyName": "Company, Inc",
+    "phoneNumber": "18005536387",
+    "externalId": "",
+    "tenantId": 1
+}

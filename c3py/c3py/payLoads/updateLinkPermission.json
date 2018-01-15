@@ -1,0 +1,21 @@
+{
+    "id": "3",
+    "name": "CCM4-T0",
+    "description": null,
+    "status": "APPROVED",
+    "remoteCloudCenterId": "ccm3",
+    "remoteTenantShortName": "CloudCenter",
+    "relation": "CLOUD_CENTER_LINK_TO_PARENT",
+    "remoteEndpoint": "https://<ChildCCM_HOST>:<PORT>",
+    "tenantId": 1,
+    "remoteLinkId": "7",
+    "remoteTenantId": "1",
+    "requestComment": "",
+    "rejectReason": null,
+    "requesterName": "CloudCenter Admin",
+    "disabled": false,
+    "remoteLaunchOk": false,
+    "remoteTerminationOk": true,
+    "remotePolicyCreationOk": true,
+    "remoteAppProfileCreationOk": true
+}

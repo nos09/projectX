@@ -1,0 +1,17 @@
+{
+    "name": "Enterprise-CRM",
+    "description": "CRM 2.0 Release",
+    "targetEndDate": 2976379896000,
+    "planType": "BUDGET",
+    "quota": {
+        "value": 50000
+    },
+    "apps": [
+        {
+            "id": "29"
+        },
+        {
+            "id": "40"
+        }
+    ]
+}

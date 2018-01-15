@@ -1,0 +1,8 @@
+{ 
+   "cloudId":5,
+   "importRegion":{ 
+      "name":"eu-west-2",
+      "displayName":"US West (California)"
+   },
+   "enabled":true
+}

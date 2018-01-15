@@ -1,0 +1,24 @@
+{
+     "id": 7,
+     "resourceName": "LINK_TO_CHILD",
+     "users": [{
+         "id": 2,
+         "perms": ["administration", "remote_launch", "remote_termination", 
+			"remote_policy_creation", "remote_app_profile_creation"]
+     }],
+     "userGroups": [],
+     "tenantUsers": [{
+         "id": "1",
+         "resource": "https://<ChildCCM_HOST>:<PORT>/v1/acls/1?id=7&
+			resourceName=LINK_TO_CHILD",
+         "perms": ["administration", "remote_launch", "remote_termination", 
+			"remote_policy_creation", "remote_app_profile_creation"],
+         "name": "Company Inc",
+         "userId": "2",
+         "shortName": "CloudCenter",
+         "parentTenantId": null,
+         "showAsShareAllUsersOnDilog": true
+     }],
+     "tenantAndSubtenantUsers": [],
+     "ownerUserId": "2"
+ }

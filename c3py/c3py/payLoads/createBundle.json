@@ -1,0 +1,10 @@
+{
+  "name": "Writers Budget Bundle_3",
+  "type": "BUDGET_BUNDLE",
+  "limit": 5000,
+  "price": 10,
+  "tenantId": 1,
+  "disabled": false,
+  "showOnlyToAdmin": false,
+  "expirationDate": 1627669800000
+}

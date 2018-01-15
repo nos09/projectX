@@ -1,0 +1,31 @@
+{
+    "operationId": "63935296-fc5a-44cc-ae5f-ced5942e6f19",
+    "status": "SUCCESS",
+    "msg": "Finished",
+    "progress": 100,
+    "timestamp": 1464909277539,
+    "additionalParameters": null,
+    "operationHistory": [
+        "submitting propagatable resource to child ccms",
+        "submitting propagatable resource to child ccm: 3",
+        "object propagated successfully to child ccm: 3",
+        "Finished"
+    ],
+    "subtaskResults": {
+        "7": {
+            "operationId": "4d47ed8c-bc94-4964-a043-965353db823c",
+            "status": "SUCCESS",
+            "msg": "object propagated successfully to child ccm: 3",
+            "progress": 100,
+            "timestamp": 1464909277539,
+            "additionalParameters": null,
+            "operationHistory": [
+                "submitting propagatable resource to child ccm: 3",
+                "object propagated successfully to child ccm: 3"
+            ],
+            "subtaskResults": null,
+            "resourceUrl": null
+        }
+    },
+    "resourceUrl": null
+}

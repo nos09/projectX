@@ -1,0 +1,32 @@
+ {
+    "id": "2",
+    "resource": "https://<HOST>:<PORT>/v1/projects/2",
+    "name": "Enterprise-CRM",
+    "projectOwnerId": 2,
+    "description": "CRM 2.0 Release",
+    "isDraft": true,
+    "targetEndDate": "1476379896000",
+    "planType": "BUDGET",
+    "quota": {
+        "value": 50000,
+        "measurableUnit": "$",
+        "type": "LIMITED"
+    },
+    "projectCost": {
+        "originalBalance": 0,
+        "remainingBalance": 0,
+        "measurableUnit": "$"
+    },
+    "apps": [
+        {
+            "id": "566",
+            "resource": "https://<HOST>:<PORT>/v1/apps/566",
+            "appName": "JenkinSingleNIC"
+        },
+        {
+            "id": "45",
+            "resource": "https://<HOST>:<PORT>/v1/apps/45",
+            "appName": "App2"
+        }
+    ]
+}
