@@ -1,0 +1,19 @@
+ProjectX:
+
+A cloudcenter python module that provides ways to uitilize its apis and tools
+for troubleshooting the instance.
+
+api
+
+build a python wrapper for cisco cloud center with its apis.
+http://docs.cloudcenter.cisco.com/
+
+atom
+
+cisco cloud center component mapping. both Non HA and HA
+viewing/collecting logs from the component
+check its services status
+check component machines health status
+cloud center deployment
+
+write documentation for the code.
